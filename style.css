@@ -47,7 +47,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 158px;
+    margin-bottom: 100px;
 }
 .players{
     width: 80%;
@@ -84,7 +84,7 @@ body{
 .copa-champ{
     display: flex;
     justify-content: center;
-    margin-bottom: 158px;
+    margin-bottom: 100px;
 }
 .champ-container{
     width: 80%;
@@ -112,7 +112,7 @@ body{
 .ballon-dor{
     display: flex;
     justify-content: center;
-    margin-bottom: 158px;
+    margin-bottom: 100px;
 }
 .ballon-container{
     width: 80%;
