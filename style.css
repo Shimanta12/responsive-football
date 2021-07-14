@@ -10,7 +10,7 @@ body{
 /* top banner styles */
 .top-banner{
     width: 100%;
-    height: 524px;
+    height: 677px;
     background-color: #2D25A0;
 }
 .banner-container{
@@ -162,4 +162,66 @@ body{
     height: 32px;
     font-size: 30px;
     margin-right: 15px;
+}
+/* media queries */
+/* media query for mobile devices */
+@media only screen and (max-width:688px){
+    .top-banner{
+        height: 695px;
+    }
+    .banner-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-title{
+        font-size: 36px;
+    }
+    .banner-container .banner-image img{
+        width: 330px;
+        height: 260px;
+    }
+    .top-players{
+        margin-bottom: 60px;
+    }
+    .players{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin-top: 47px;
+    }
+    .copa-champ{
+        margin-bottom: 60px;
+    }
+    .champ-container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .champ-container .champ-image img{
+        width: 330px;
+        height: 250px;
+    }
+    .champ-title{
+        font-size: 30px;
+    }
+    .ballon-dor{
+        margin-bottom: 0px;
+    }
+    .ballon-container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ballon-container .winner-image img{
+        width: 330px;
+        height: 250px;
+        margin-top: 5px;
+    }
+    .winner-title{
+        font-size: 30px;
+    }
+    .footer-container .footer-logo img{
+        width: 250px;
+        height: 60px;
+    }
 }
